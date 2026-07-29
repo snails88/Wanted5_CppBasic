@@ -2,6 +2,10 @@
   <Configurations>
     <Platform Name="x64" />
   </Configurations>
+  <Project Path="Array/Array.vcxproj" Id="150700a8-ad35-4e03-bd66-1851242f178c" />
+  <Project Path="BuildProcess/BuildProcess.vcxproj" Id="9174946d-4564-4b5a-8ea5-e250c0fa00f1" />
   <Project Path="ConsoleInput/ConsoleInput.vcxproj" Id="0b810f16-57b8-4c8a-a927-6c1f604c22c2" />
   <Project Path="ConsoleIO/ConsoleIO.vcxproj" Id="88234442-e609-4628-83ee-9bc95d6d8986" />
+  <Project Path="Pointer/Pointer.vcxproj" Id="dc3a0ba4-c97e-4704-bf8a-8101ce9a7c5b" />
+  <Project Path="String/String.vcxproj" Id="b8e7a81c-2bb0-45d4-8696-83b3e7875bc8" />
 </Solution>
