@@ -15,8 +15,11 @@
   <Project Path="OperatorOverloading/OperatorOverloading.vcxproj" Id="6da804f1-d4a6-4849-902c-a25b72de0572" />
   <Project Path="Pointer/Pointer.vcxproj" Id="dc3a0ba4-c97e-4704-bf8a-8101ce9a7c5b" />
   <Project Path="RTTI/RTTI.vcxproj" Id="c8b76e81-5d61-409e-a8ce-5647f271db10" />
+  <Project Path="SharedPtr/SharedPtr.vcxproj" Id="972767b6-f244-483c-a9aa-e8ba3d71927a" />
   <Project Path="Static/Static.vcxproj" Id="07b6853c-1c9e-4796-ac96-b258fb39c218" />
   <Project Path="String/String.vcxproj" Id="b8e7a81c-2bb0-45d4-8696-83b3e7875bc8" />
   <Project Path="Template/Template.vcxproj" Id="391d0752-396b-4d48-85b3-c3786aa9ea01" />
+  <Project Path="UniquePtr/UniquePtr.vcxproj" Id="c6db4736-ef77-488c-b215-6250e4e9a37f" />
+  <Project Path="ValueCategory/ValueCategory.vcxproj" Id="ce162d0b-c8f1-435f-8221-c1dee549e959" />
   <Project Path="Virtual/Virtual.vcxproj" Id="8145504a-1c83-4f30-8b01-b72d4897c384" />
 </Solution>
