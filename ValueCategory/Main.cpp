@@ -1,5 +1,6 @@
-#include <iostream>
+﻿#include <iostream>
 #include <string>
+#include <memory>
 
 
 class Actor
@@ -54,8 +55,50 @@ private:
 	char* name = nullptr;
 };
 
+void Use(int& value)
+{
+	std::cout << "void Use(int& value)\n";
+}
+
+void Use(int&& value)
+{
+	std::cout << "void Use(int&& value)\n";
+}
+
+class Item
+{
+
+};
+
+void Test(Item& item)
+{
+	std::cout << "void Test(Item& item)\n";
+}
+
+void Test(Item&& item)
+{
+	std::cout << "void Test(Item&& item)\n";
+}
+
+template<typename T>
+void Function(T&& val)
+{
+	Test(std::forward<T>(val));
+}
+
 int main()
 {
+	int value = 10;
+	Use(value);
+	Use(std::move(value));
+
+	Item item;
+	Function(item);
+	Function(Item());
+
+	std::unique_ptr<Actor> actor1 = std::make_unique<Actor>("dd");
+	std::unique_ptr<Actor> actor2 = std::move(actor1);
+
 	// count는 L-Value : 메모리 차지, 식별가능, 변경 가능
 	// 10 은 정수 리터럴로서 R-Value : 임시값.(L밸류특징의 반대)
 	int count = 10;	
@@ -67,4 +110,6 @@ int main()
 	// R-Value Reference
 	int&& rRef = 20;
 	//int&& rRef2 = count;	// 오류
+
+
 }

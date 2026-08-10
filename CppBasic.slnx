@@ -12,6 +12,8 @@
   <Project Path="CustumRTTI/CustumRTTI.vcxproj" Id="63e9d246-7df5-4e5d-918d-07cb9bae3dad" />
   <Project Path="FileIO_C/FileIO_C.vcxproj" Id="5956a83b-4dbd-404f-bfc2-d030485d11fe" />
   <Project Path="ForwardDeclaration/ForwardDeclaration.vcxproj" Id="d211b934-e320-4bf4-a49c-84198d22102c" />
+  <Project Path="FunctionPointer/FunctionPointer.vcxproj" Id="cf8d08eb-4fc0-4796-a93c-c8117c862cf0" />
+  <Project Path="Functor/Functor.vcxproj" Id="58d9b817-7bf2-4e6d-b4a2-537f99d171f0" />
   <Project Path="OperatorOverloading/OperatorOverloading.vcxproj" Id="6da804f1-d4a6-4849-902c-a25b72de0572" />
   <Project Path="Pointer/Pointer.vcxproj" Id="dc3a0ba4-c97e-4704-bf8a-8101ce9a7c5b" />
   <Project Path="RTTI/RTTI.vcxproj" Id="c8b76e81-5d61-409e-a8ce-5647f271db10" />
